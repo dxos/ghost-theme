@@ -14,6 +14,10 @@
     text-transform: uppercase;
 }
 
+.gh-article-author {
+    color: var(--primary-text-color);
+}
+
 .gh-article-tag {
     color: var(--tag-color, var(--ghost-accent-color));
 }
@@ -22,6 +26,7 @@
     font-size: 3rem;
     line-height: 1.4;
     letter-spacing: -0.03em;
+    color: var(--primary-text-color);
 }
 
 .gh-article-excerpt {
@@ -30,4 +35,8 @@
 
 .gh-article-image {
     grid-column: main-start / main-end;
+}
+
+.gh-content p{
+    color: var(--primary-text-color);
 }

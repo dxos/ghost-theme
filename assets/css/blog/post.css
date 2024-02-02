@@ -40,6 +40,7 @@
     font-size: 1.6rem;
     line-height: 1.35;
     word-break: break-word;
+    color: var(--primary-text-color);
 }
 
 .has-serif-title .post-title {
@@ -51,6 +52,7 @@
     font-size: 1.4rem;
     line-height: 1.6;
     word-break: break-word;
+    color: var(--secondary-text-color);
 }
 
 .has-serif-body .post-excerpt {
@@ -73,6 +75,7 @@
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 0.005em;
+    color: var(--primary-text-color);
 }
 
 .post-author {

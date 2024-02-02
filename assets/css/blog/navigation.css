@@ -46,6 +46,7 @@
     font-size: 2rem;
     line-height: 1.4;
     word-break: break-word;
+    color: var(--primary-text-color);
 }
 
 .navigation-item:hover .navigation-title {

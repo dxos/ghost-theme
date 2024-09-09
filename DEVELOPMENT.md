@@ -65,8 +65,8 @@ The Prims script is imported from `default.hbs`.
 <script src="{{asset "js/prism.js"}}"></script>
 ```
 
-- TODO(burdon): Build step.
-- TODO(burdon): Dark mode: 
-  - https://github.com/hamza-x/ghost-theme-ruby-dark
-  - https://forum.ghost.org/t/comments-and-subscribe-iframes-with-dark-mode/45162
+## Build and Deploy
 
+```bash
+yarn 
+```

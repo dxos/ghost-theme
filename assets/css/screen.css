@@ -1,7 +1,5 @@
 @import "@tryghost/shared-theme-assets/assets/css/v1/screen.css";
 
-@import "prism.css";
-
 @import "general/fonts.css";
 @import "general/basics.css";
 @import "site/header.css";
@@ -14,4 +12,5 @@
 @import "blog/navigation.css";
 @import "blog/comment.css";
 @import "blog/related.css";
+@import "misc/prism.css";
 @import "misc/utilities.css";

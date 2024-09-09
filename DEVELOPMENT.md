@@ -67,6 +67,8 @@ The Prims script is imported from `default.hbs`.
 
 ## Build and Deploy
 
+Run the following command then upload the theme from `./dist`.
+
 ```bash
-yarn 
+yarn zip
 ```

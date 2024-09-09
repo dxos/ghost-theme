@@ -4008,7 +4008,7 @@ Prism.languages.webmanifest = Prism.languages.json;
 		var settings = {
 			'copy': 'Copy',
 			'copy-error': 'Press Ctrl+C to copy',
-			'copy-success': 'OK',
+			'copy-success': 'Copied!',
 			'copy-timeout': 5000
 		};
 

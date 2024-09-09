@@ -1,2 +1,4 @@
+assets/built/
+dist/
 node_modules/
 .idea/workspace.xml

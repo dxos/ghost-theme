@@ -1,42 +1,45 @@
 .gh-article {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .page-template .gh-article {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .gh-article-meta {
-    margin-bottom: 12px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--secondary-text-color);
-    text-transform: uppercase;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
 }
 
 .gh-article-author {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .gh-article-tag {
-    color: var(--tag-color, var(--ghost-accent-color));
+  color: var(--tag-color, var(--ghost-accent-color));
 }
 
 .gh-article-title {
-    font-size: 3rem;
-    line-height: 1.4;
-    letter-spacing: -0.03em;
-    color: var(--primary-text-color);
+  font-size: 3rem;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  color: var(--primary-text-color);
 }
 
 .gh-article-excerpt {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .gh-article-image {
-    grid-column: main-start / main-end;
+  grid-column: main-start / main-end;
 }
 
-.gh-content p{
-    color: var(--primary-text-color);
+.gh-content,
+.gh-content > p,
+.gh-content > ol,
+.gh-content > ul {
+  color: var(--primary-text-color);
 }

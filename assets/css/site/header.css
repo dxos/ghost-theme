@@ -1,27 +1,26 @@
 .gh-head {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .gh-head-menu,
 .gh-head-actions {
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.005em;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
 }
 
 .gh-btn,
-.gh-head-btn, 
+.gh-head-btn,
 .gh-primary-btn,
 .gh-head-link {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
-
 .gh-head-btn {
-    --multiplier: 1.3;
+  --multiplier: 1.3;
 }
 
 .gh-head-logo {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }

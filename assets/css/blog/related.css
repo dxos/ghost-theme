@@ -1,14 +1,14 @@
 .related-wrapper {
-    padding-top: 48px;
-    padding-bottom: 64px;
-    margin-top: 96px;
-    background-color: var(--primary-background-color);
+  padding-top: 48px;
+  padding-bottom: 64px;
+  margin-top: 96px;
+  background-color: var(--primary-background-color);
 }
 
 .related-title {
-    margin: 20px 0 40px;
-    font-size: 14px;
-    color: var(--secondary-text-color);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  margin: 20px 0 40px;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

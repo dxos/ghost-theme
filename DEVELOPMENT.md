@@ -27,6 +27,14 @@ cd content/themes
 git clone git@github.com:dxos/ghost-theme.git
 ```
 
+Add a symlink from the Ghost installation to the theme directory.
+
+```bash
+cd ghost
+cd content/themes
+ln -s ../../ghost-theme
+```
+
 4. Start Ghost and activate the theme.
 
 ```bash
@@ -39,7 +47,9 @@ Click "Change theme" (bottom right) and select "Installed" and "@dxos/ghost-them
 
 ## Development
 
-From the template directory run the dev server:
+NOTE: You must have Node 18.19.0 installed.
+
+From the theme directory run the dev server:
 
 ```bash
 yarn
@@ -48,7 +58,7 @@ yarn dev
 
 Restart ghost for major changes via `ghost restart`.
 
-## Prism
+## Configuring Prism
 
 The theme uses a modified version of [Prism](https://prismjs.com) for syntax highlighting. 
 It uses generated and customized code from [here](https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+bash+diff+json+markdown+jsx+tsx+regex+typescript+typoscript&plugins=line-highlight+line-numbers+command-line+toolbar+copy-to-clipboard+diff-highlight+treeview).
@@ -72,3 +82,7 @@ Run the following command then upload the theme from `./dist`.
 ```bash
 yarn zip
 ```
+
+Configure the theme via settings: https://dxos.ghost.io/ghost/#/settings/design/edit
+
+Upload the theme file: `dist/dxos-ruby-dark.zip`.
